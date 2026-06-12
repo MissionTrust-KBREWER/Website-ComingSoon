@@ -1,0 +1,10 @@
+name: missiontrust-site
+metadata:
+  template: missiontrust-site@0.0.1
+infra:
+  provider: bicep
+services:
+  web:
+    project: .
+    language: js
+    host: staticwebapp

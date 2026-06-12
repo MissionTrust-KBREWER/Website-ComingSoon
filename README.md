@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## MissionTrust Advisors Site
 
-## Getting Started
+This repository contains the first public website for MissionTrust Advisors, built with Next.js and prepared for Azure deployment using Azure Developer CLI (`azd`) and Bicep.
 
-First, run the development server:
+## Local Development
+
+Install dependencies and run the local development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build and Lint
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Azure Deployment (Static Web Apps Free)
 
-To learn more about Next.js, take a look at the following resources:
+This project includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `azure.yaml` for `azd` project configuration
+- `infra/main.bicep` for Azure infrastructure
+- `infra/main.parameters.json` for environment parameters
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+1. Azure subscription
+2. [Azure CLI](https://learn.microsoft.com/cli/azure/install-azure-cli)
+3. [Azure Developer CLI](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+azd auth login
+azd init
+azd env new missiontrust-prod
+azd provision --preview
+azd up
+```
+
+`azd up` provisions a Free-tier Azure Static Web App and deploys the generated static site.
+
+### Useful follow-up commands
+
+```bash
+azd deploy
+azd down
+```
+
+## Project Structure
+
+- `app/` application UI and routes
+- `infra/` Bicep infrastructure for Azure
+- `public/` static assets
+
+## Notes
+
+Hosting defaults to Azure Static Web Apps Free for the lowest possible startup cost.
+
+If you need server-side rendering or API-heavy workloads later, migrate to App Service or upgrade SWA tier.
