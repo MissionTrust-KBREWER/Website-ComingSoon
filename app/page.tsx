@@ -1,6 +1,9 @@
+import { redirect } from 'next/navigation';
 import Image from "next/image";
 
 export default function Home() {
+  redirect('/coming-soon');
+}
   const year = new Date().getFullYear();
 
   const CompassRose = ({ size = 28 }: { size?: number }) => (
