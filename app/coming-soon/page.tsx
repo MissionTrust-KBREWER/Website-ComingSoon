@@ -42,6 +42,10 @@ export default function ComingSoonPage() {
             <span className="text-[var(--gold-400)]">TRUST</span>
           </h1>
 
+          <p className="mt-1 text-sm font-semibold uppercase tracking-[0.34em] text-[#D6E7F8] sm:text-base md:text-lg">
+            ADVISORS
+          </p>
+
           <div className="mx-auto mt-3 h-px w-16 bg-[var(--gold-400)] sm:w-20 sm:mt-4" />
 
           <p className="mx-auto mt-5 max-w-2xl text-base italic text-[#F2F7FF] sm:text-lg md:text-2xl">
