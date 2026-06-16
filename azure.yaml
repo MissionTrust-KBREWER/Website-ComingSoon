@@ -6,5 +6,6 @@ infra:
 services:
   web:
     project: .
+    dist: out
     language: js
     host: staticwebapp
