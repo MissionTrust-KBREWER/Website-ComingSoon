@@ -164,7 +164,7 @@ export default function Home() {
               href="#contact"
               className="btn-primary"
             >
-              Book a 15-Minute Fit Call
+              Contact Us
             </a>
             <a
               href="#services"
