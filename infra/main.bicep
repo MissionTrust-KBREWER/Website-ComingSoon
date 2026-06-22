@@ -9,6 +9,7 @@ param environmentName string
 param location string = resourceGroup().location
 
 var staticWebAppName = toLower('swa-${environmentName}-${uniqueString(resourceGroup().id)}')
+var staticWebAppFullsiteName = 'swa-mtprod-fullsite'
 
 resource staticWebApp 'Microsoft.Web/staticSites@2023-12-01' = {
   name: staticWebAppName
@@ -19,6 +20,21 @@ resource staticWebApp 'Microsoft.Web/staticSites@2023-12-01' = {
   }
   tags: {
     'azd-service-name': 'web'
+    'deployment': 'coming-soon'
+  }
+  properties: {}
+}
+
+resource staticWebAppFullsite 'Microsoft.Web/staticSites@2023-12-01' = {
+  name: staticWebAppFullsiteName
+  location: location
+  sku: {
+    name: 'Free'
+    tier: 'Free'
+  }
+  tags: {
+    'azd-service-name': 'web'
+    'deployment': 'fullsite'
   }
   properties: {}
 }
@@ -26,3 +42,5 @@ resource staticWebApp 'Microsoft.Web/staticSites@2023-12-01' = {
 output AZURE_LOCATION string = location
 output AZURE_STATIC_WEB_APP_NAME string = staticWebApp.name
 output AZURE_STATIC_WEB_APP_DEFAULT_HOSTNAME string = staticWebApp.properties.defaultHostname
+output AZURE_STATIC_WEB_APP_FULLSITE_NAME string = staticWebAppFullsite.name
+output AZURE_STATIC_WEB_APP_FULLSITE_HOSTNAME string = staticWebAppFullsite.properties.defaultHostname

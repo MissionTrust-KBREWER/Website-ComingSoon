@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ComingSoonPage() {
   const year = new Date().getFullYear();
-  const sectors = ["Federal Civilian", "Department of Defense", "National Security"];
+  const sectors = ["Federal Civilian", "Department of War", "National Security"];
 
   const CompassRose = ({ size = 34 }: { size?: number }) => (
     <svg width={size} height={size} viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
