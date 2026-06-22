@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "MissionTrust Advisors | Federal Security Advisory",
   description: "Mission-first Microsoft security advisory for Federal Civilian, DoW, and National Security organizations.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function Home() {

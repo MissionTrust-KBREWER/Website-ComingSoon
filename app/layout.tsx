@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "MissionTrust Advisors | IT Consulting",
   description:
     "MissionTrust Advisors delivers cloud architecture, identity modernization, and secure delivery acceleration for enterprise IT programs.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

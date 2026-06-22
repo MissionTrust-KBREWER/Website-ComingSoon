@@ -3,6 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "MissionTrust Advisors | Coming Soon",
   description: "Mission-First Microsoft Security. Coming Soon.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function ComingSoonPage() {
