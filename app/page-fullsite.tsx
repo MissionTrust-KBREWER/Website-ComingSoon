@@ -110,6 +110,7 @@ export default function Home() {
   ];
 
   const credentialChips = [
+    "Cleared Advisor to Department of War and National Security Agencies",
     "20+ Years Federal & National Security Advisory",
     "Author: DoW ZT Strategy | CISA ZTMM | CMMC | FedRAMP High Guidance",
     "Federal Civilian | DoW | Intelligence Community",
@@ -241,7 +242,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="section-reveal mt-20 rounded-4xl bg-[var(--paper-100)] px-7 py-10 md:px-10" style={{ animationDelay: "460ms" }}>
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">Founder & Principal Advisor</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">CEO & Founder, MissionTrust Advisors</p>
           <div className="mt-6 flex justify-center">
             <Image
               src="/keith-brewer-headshot.jpg"

@@ -1,0 +1,93 @@
+KEITH BREWER 
+CEO & Founder, Mission Trust Advisors  
+Identity | Zero Trust | Agentic AI | Government Cloud Strategy 
+Keith.Brewer@MissionTrustAdvisors.com 
+linkedin.com/in/Keith-Brewer 
+CLEARANCE: 
+ Active TS/SCI with Full Scope Polygraph (DoD/IC) 
+Executive Summary 
+CEO and Founder of Mission Trust Advisors and  
+Principal  
+Identity 
+ and Security Architect with  
+more than 20 
+ years at Microsoft 
+, where he has led 
+ identity, Zero Trust, and cloud security strategy for U.S. government, defense,  
+intelligence,  
+and highly regulated organizations.  
+Holds an active TS/SCI with Full Scope Polygraph and brings established credibility with DoD and Intelligence Community stakeholders.  
+Trusted 
+ to translate complex compliance, engineering, and product realities into  
+scalable guidance, executive 
+ strategy,  
+and  
+customer outcomes 
+ across Microsoft Entra, sovereign cloud, and secure AI. 
+  
+Combines executive presence, 
+ deep technical authority, product influence, and hands-on development leadership to help customers and field teams navigate  
+mission-critical 
+ security decisions with clarity and speed. 
+Core Competencies 
+Identity & Zero Trust: 
+ Microsoft Entra, Conditional Access, phishing-resistant MFA, passwordless, PKI, identity governance, PIM/PAM, non-human identity security 
+, External Users (B2B) 
+Agentic AI & Product Leadership: 
+ Copilot and agent design, knowledge grounding, prompt design, product strategy, internal solution development 
+Government Cloud & Compliance: 
+ Microsoft 365, Azure, GCC, GCC High, DoD,  
+DoD Zero Trust Strategy, CISA Zero Trust Maturity Model,  
+FedRAMP High, FISMA, CMMC, EO 14028, OMB M-22-09, NIST 800-63, NIST 800-171 
+Executive Advisory: 
+ Zero Trust strategy, executive communications, solution architecture, field readiness, customer  
+escalations 
+, RFI development 
+Professional Experience 
+Microsoft Corporation 
+ — Principal Identity & Security Architect | 2004–Present 
+  
+(20+ years) 
+Serves as a senior Microsoft authority 
+ on identity, Zero Trust, and access architecture for U.S. government and highly regulated customers, advising executives, architects, and frontline teams across Microsoft Entra, Microsoft 365, Azure, GCC, GCC High, and DoD environments. 
+Authored Microsoft guidance 
+ used to help customers operationalize the DoD Zero Trust Strategy, CISA Zero Trust Maturity Model, CMMC, FedRAMP High, and NIST identity requirements. 
+Shapes executive and field decision-making 
+ by translating complex policy, roadmap, and security considerations into clear technical guidance that accelerates customer planning and reduces ambiguity in high-stakes environments. 
+Develops AI solutions to real-world problems and challenges 
+ by leading internal agentic experiences that improve field productivity, speed technical decision-making, and support high-stakes customer engagements. 
+Led the  
+Cloud  
+Parity Agent program and served as lead developer 
+ for an internal agentic experience that helps Microsoft field teams self-service feature parity and service availability questions across Microsoft clouds. 
+Led the program and served as lead developer 
+ for an internal Microsoft Entra technical Q&A agent that helps technical field teams and sellers answer product questions faster and improve RFI response quality. 
+Extends Microsoft security leadership into the AI era 
+ by defining identity, access control, and governance patterns for Copilot, autonomous agents, and non-human identities. 
+Certifications & Technical Credentials 
+Microsoft Certification Transcript: 
+  
+Credentials 
+Coverage: 
+ Identity, Microsoft 365 Security, Azure security, compliance 
+Technical Focus: 
+ Microsoft Entra, Microsoft 365 Security, Azure security, identity and access management, Zero Trust, sovereign cloud, agentic AI security, compliance 
+Representative Engagement Themes 
+Executive advisory for government and regulated customers on identity modernization, Zero Trust strategy, sovereign cloud readiness, phishing-resistant authentication, workload and non-human identity security, compliance-aligned architecture, and secure adoption of Copilot and agentic AI in mission-sensitive environments. 
+Selected Leadership Priorities 
+Accelerating sovereign cloud understanding for the Microsoft field, improving technical answer quality for high-stakes customer engagements, shaping secure adoption patterns for Copilot and agentic AI, and helping internal teams map Microsoft security capabilities to  
+evolving 
+ federal and regulated-environment requirements. Consistently recognized for combining deep platform knowledge, customer-facing clarity, and practical execution to help Microsoft teams and customers move faster on identity, Zero Trust, and secure cloud adoption. 
+Selected Guidance 
+, 
+ Media 
+ & Thought Leadership 
+Selected Microsoft Guidance 
+Configure Microsoft cloud services for the DoD Zero Trust Strategy 
+Configure Microsoft cloud services for the CISA Zero Trust Maturity Model 
+Configure Microsoft Entra ID for CMMC compliance 
+Configure Microsoft Entra ID to meet FedRAMP High Impact level 
+Road to the Cloud – AD to Microsoft Entra ID Migration Whitepaper 
+Selected Video & Media 
+Phishing-Resistant Authentication in Microsoft Entra ID 
+Migrate from ADFS CBA to Microsoft Entra CBA

@@ -1,0 +1,35 @@
+<svg width="820" height="180" viewBox="0 0 820 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MissionTrust Advisors logo">
+  <defs>
+    <style>
+      .wordmarkTop { font: 700 60px 'Inter', 'Segoe UI', Arial, sans-serif; letter-spacing: 0.02em; }
+      .wordmarkBottom { font: 600 22px 'Inter', 'Segoe UI', Arial, sans-serif; letter-spacing: 0.28em; }
+    </style>
+  </defs>
+
+  <!-- Compass rose mark -->
+  <g transform="translate(20,20)">
+    <circle cx="70" cy="70" r="66" stroke="#2A5A8D" stroke-width="4" fill="none" />
+    <line x1="12" y1="70" x2="128" y2="70" stroke="#2A5A8D" stroke-width="2" stroke-opacity="0.45" />
+    <line x1="70" y1="12" x2="70" y2="128" stroke="#2A5A8D" stroke-width="2" stroke-opacity="0.45" />
+
+    <polygon points="70,12 78,58 70,46 62,58" fill="#C9A84C" />
+    <polygon points="128,70 82,78 94,70 82,62" fill="#C9A84C" />
+    <polygon points="70,128 62,82 70,94 78,82" fill="#C9A84C" />
+    <polygon points="12,70 58,62 46,70 58,78" fill="#C9A84C" />
+
+    <polygon points="94,24 82,58 86,54 78,58" fill="#173B66" />
+    <polygon points="116,94 82,82 86,86 82,78" fill="#173B66" />
+    <polygon points="46,116 58,82 54,86 62,82" fill="#173B66" />
+    <polygon points="24,46 58,58 54,54 58,62" fill="#173B66" />
+
+    <polygon points="70,58 78,70 70,82 62,70" fill="#FFFFFF" />
+    <polygon points="70,62 74,70 70,78 66,70" fill="#0B1F3C" />
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(190,62)">
+    <text x="0" y="0" class="wordmarkTop" fill="#0B1F3C">MISSION</text>
+    <text x="254" y="0" class="wordmarkTop" fill="#C9A84C">TRUST</text>
+    <text x="2" y="46" class="wordmarkBottom" fill="#2A5A8D">ADVISORS</text>
+  </g>
+</svg>
