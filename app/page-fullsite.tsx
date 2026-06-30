@@ -53,9 +53,9 @@ export default function Home() {
   ];
 
   const audiences = [
-    "Federal Civilian Agencies",
-    "Department of War (DoW) - Components, PEOs, Program Offices",
     "Intelligence Community (IC) - National Security missions",
+    "Department of War (DoW) - Components, PEOs, Program Offices",
+    "Federal Civilian Agencies",
     "Defense Industrial Base (DIB) - Prime contractors and supply chain",
   ];
 
@@ -104,7 +104,7 @@ export default function Home() {
     {
       title: "FedRAMP, CMMC & Federal Compliance",
       description:
-        "Gap assessments, control mapping, and native Microsoft configuration guidance to meet FedRAMP High, CMMC 2.0, FISMA, and NIST 800-63 - using what you already have licensed.",
+        "Gap assessments, control mapping, and native Microsoft configuration guidance to meet FedRAMP High, CMMC 2.0, and NIST 800-63 - using what you already have licensed.",
     },
     {
       title: "Executive Advisory & Briefings",
@@ -271,7 +271,7 @@ export default function Home() {
         </section>
 
         <section id="about" className="section-reveal mt-20 rounded-4xl bg-[var(--paper-100)] px-7 py-10 md:px-10" style={{ animationDelay: "460ms" }}>
-          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">CEO & Founder, MissionTrust Advisors</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">CEO & Founder of MissionTrust Advisors</p>
           <div className="mt-6 flex justify-center">
             <Image
               src="/keith-brewer-headshot.jpg"
@@ -295,7 +295,7 @@ export default function Home() {
             Before founding MissionTrust, Keith served as a Principal Identity & Security Architect at Microsoft, As a Principal Product Manager in  Identity and Network Access (IDNA) Product group Customer Expereince Engineering (CxE), Keith was the lead architect with Strategic US Government Customers. He is the named author of Microsoft&apos;s official guidance for the <a href="https://aka.ms/ZTforDoD" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">DoW Zero Trust Strategy</a>, <a href="https://aka.ms/ZTforUSGov" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CISA Zero Trust Maturity Model</a>, <a href="https://aka.ms/AzureADCMMC" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CMMC 2.0</a>, and <a href="https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">FedRAMP High</a> - the documents that define how agencies implement Microsoft security controls today. He also led the Microsoft Security video series on <a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">phishing-resistant authentication</a> and the instructional video on <a href="https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">migrating to Microsoft Entra Certificate-Based Authentication (CBA)</a>.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
-            MissionTrust was founded on a simple but powerful premise: most agencies already own everything they need to achieve strong, auditable Zero Trust outcomes. Stitching together multiple vendor products is complex and in some cases not possible. The result is a fragmented admin and user experience that often fails to achieve the desired security outcome. Simply put, starting with a goal of implementing the Microsoft security products most agencies already own that natively integrate with Microsoft 365 and Azure workloads leads to better Zero Trust outcomes. This is where MissionTrust Advisors excels: helping agencies improve the overall security posture, administrative capability, and increased SOC visibility, with reduced complexity and cost, often while improving user experience.
+            MissionTrust was founded on a simple but powerful premise: most agencies already own everything they need to achieve strong, auditable Zero Trust outcomes. Stitching together multiple vendor products is complex and in many cases not possible. The result is a fragmented admin and user experience that often fails to achieve the desired security outcome. Simply put, starting with a goal of implementing the Microsoft security products most agencies already own that natively integrate with Microsoft 365 and Azure workloads leads to better Zero Trust outcomes. This is where MissionTrust Advisors excels: helping agencies improve the overall security posture, administrative capability, and increased SOC visibility, with reduced complexity and cost, often while improving user experience.
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
@@ -336,9 +336,9 @@ export default function Home() {
         </section>
 
         <section id="contact" className="section-reveal mt-20 rounded-4xl border border-white/20 bg-[rgba(6,14,33,0.7)] px-7 py-10 md:px-10" style={{ animationDelay: "520ms" }}>
-          <h2 className="text-3xl font-semibold text-white md:text-4xl">Activate Mission Outcomes Now</h2>
+          <h2 className="text-3xl font-semibold text-white md:text-4xl">Are You Ready to Realize a Better Zero Trust Posture?</h2>
           <p className="mt-4 max-w-3xl text-sm leading-relaxed text-white/78 md:text-base">
-            Share your top Microsoft security and compliance objective. MissionTrust will return a focused advisory path designed for your mission, mandate deadlines, and budget reality.
+            If you are ready to improve your Zero Trust posture while reducing cost and complexity, MissionTrust will map a focused advisory path aligned to your mission, mandate deadlines, and budget reality.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-1">
             <a
