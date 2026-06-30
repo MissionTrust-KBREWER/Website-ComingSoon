@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "MissionTrust Advisors | Federal Security Advisory",
-  description: "Mission-first Microsoft security advisory for Federal Civilian, DoW, and National Security organizations.",
+  description: "Mission-first Microsoft advisory for identity, Zero Trust, Agentic AI, and government cloud strategy for Federal Civilian, DoW, and National Security organizations.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -47,6 +47,7 @@ export default function Home() {
     "Microsoft 365 Security",
     "Azure Security Posture",
     "ICAM Modernization",
+    "Non-Human Identity Security",
     "FedRAMP and CMMC Alignment",
     "Executive Roadmapping",
   ];
@@ -72,7 +73,17 @@ export default function Home() {
     {
       title: "Identity & Access Modernization (ICAM)",
       description:
-        "Entra ID architecture, phishing-resistant MFA, ADFS retirement, identity governance, and privileged access - designed for Federal Civilian, DoW, and National Security environments.",
+        "Entra ID architecture, phishing-resistant MFA, ADFS retirement, identity governance, privileged access, and non-human identity security - designed for Federal Civilian, DoW, and National Security environments.",
+    },
+    {
+      title: "Agentic AI Strategy & Security",
+      description:
+        "Practical guidance for secure Copilot and agentic AI adoption, including identity, access, governance, and knowledge grounding patterns that support mission work without introducing unnecessary risk.",
+    },
+    {
+      title: "Sovereign Cloud Strategy & Readiness",
+      description:
+        "Advisory for GCC, GCC High, and other sovereign cloud scenarios, helping teams align identity, security controls, and operating patterns to regulated mission requirements.",
     },
     {
       title: "FedRAMP, CMMC & Federal Compliance",
@@ -148,7 +159,7 @@ export default function Home() {
           <p className="hero-rotator mt-5 text-sm font-medium uppercase tracking-[0.18em] text-[var(--gold-300)] md:text-base">
             <span>Author of Official Microsoft Guidance.</span>
             <span>Better Security. Lower Cost. Zero Trust Done Right.</span>
-            <span>Native Microsoft. Reduce Integation complexity.</span>
+            <span>Native Microsoft. Reduce Integration complexity.</span>
           </p>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/85 md:text-lg">
             MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations activate and operationalize the Microsoft security capabilities they already own.
@@ -162,10 +173,12 @@ export default function Home() {
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
-              href="#contact"
+              href="https://outlook.office.com/book/MissionTrustAdvisors1@MissionTrustAdvisors.onmicrosoft.com/?ismsaljsauthenabled"
+              target="_blank"
+              rel="noreferrer"
               className="btn-primary"
             >
-              Contact Us
+              Schedule a Call
             </a>
             <a
               href="#services"
@@ -283,9 +296,14 @@ export default function Home() {
             Share your top Microsoft security and compliance objective. MissionTrust will return a focused advisory path designed for your mission, mandate deadlines, and budget reality.
           </p>
           <div className="mt-8 grid gap-4 md:grid-cols-1">
-            <a href="mailto:contact@missiontrustadvisors.com" className="contact-card">
-              <p className="text-xs uppercase tracking-[0.16em] text-white/60">General Inquiries</p>
-              <p className="mt-2 text-lg font-semibold text-white">contact@missiontrustadvisors.com</p>
+            <a
+              href="https://outlook.office.com/book/MissionTrustAdvisors1@MissionTrustAdvisors.onmicrosoft.com/?ismsaljsauthenabled"
+              target="_blank"
+              rel="noreferrer"
+              className="contact-card"
+            >
+              <p className="text-xs uppercase tracking-[0.16em] text-white/60">Schedule a Call</p>
+              <p className="mt-2 text-lg font-semibold text-white">Schedule online</p>
             </a>
           </div>
         </section>
@@ -299,6 +317,10 @@ export default function Home() {
             <span className="bottom">ADVISORS</span>
           </span>
         </a>
+        <div className="mb-3 flex flex-wrap gap-4 text-xs text-white/70">
+          <a href="mailto:Keith@missiontrustadvisors.com" className="hover:text-white">Keith@missiontrustadvisors.com</a>
+          <a href="https://www.linkedin.com/in/Keith-Brewer" target="_blank" rel="noreferrer" className="hover:text-white">LinkedIn</a>
+        </div>
         <p>© {year} MissionTrust Advisors | Federal Civilian, DoW, and National Security Advisory</p>
       </footer>
     </div>
