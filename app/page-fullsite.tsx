@@ -177,7 +177,7 @@ export default function Home() {
             Mission-First Microsoft Security Advisory
           </p>
           <h1 className="max-w-5xl text-4xl font-semibold leading-tight text-white md:text-6xl">
-            Turn Existing Microsoft Security Investments into Mission Outcomes by Operationalizing What You Own at Lower Cost.
+            Turn Existing Microsoft Security Investments into Measurable Zero Trust Outcomes at Lower Cost.
           </h1>
           <p className="hero-rotator mt-5 text-sm font-medium uppercase tracking-[0.18em] text-[var(--gold-300)] md:text-base">
             <span>Identity. Zero Trust. Agentic AI. Government Cloud Strategy.</span>
@@ -185,7 +185,7 @@ export default function Home() {
             <span>AI-Critical Guidance, Seamlessly Integrated into Zero Trust.</span>
           </p>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/85 md:text-lg">
-            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations realize better Zero Trust outcomes from Microsoft capabilities they already own, while seamlessly incorporating AI-critical security guidance.
+            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations operationalize the Microsoft capabilities they already own to improve Zero Trust outcomes, reduce complexity, and integrate AI-critical security guidance from the start.
           </p>
 
           <div className="mt-8 grid gap-3 md:grid-cols-2">
@@ -223,7 +223,7 @@ export default function Home() {
 
         <section className="message-band section-reveal mt-10 rounded-3xl px-6 py-6 md:px-8" style={{ animationDelay: "200ms" }}>
           <p className="text-sm font-medium uppercase tracking-[0.16em] text-[var(--gold-300)]">Core Value Proposition</p>
-          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own the tools needed for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap, with AI-critical guidance integrated from the start.</p>
+          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own what they need for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap, with AI-critical guidance seamlessly integrated from day one.</p>
           <div className="mt-5 flex flex-wrap gap-2">
             {outcomes.map((outcome) => (
               <span key={outcome} className="pill-chip">{outcome}</span>
