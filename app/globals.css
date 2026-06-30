@@ -40,6 +40,7 @@
   --paper-100: var(--surface);
   --paper-200: var(--surface-alt);
   --ink-900: var(--text-primary);
+  --ink-800: #2D4A6F;
   --ink-700: #364152;
   --ink-600: var(--text-muted);
   --navy-600: var(--navy-700);
