@@ -146,6 +146,12 @@ export default function Home() {
     "Serving the Federal Enterprise",
   ];
 
+  const executiveOutcomes = [
+    "Executive escalation support for mission-critical decisions",
+    "Improved technical answer quality and RFI response confidence",
+    "Stronger field readiness for high-stakes customer engagements",
+  ];
+
   return (
     <div className="site-shell min-h-screen">
       <header className="top-nav mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6 md:px-10">
@@ -292,18 +298,27 @@ export default function Home() {
             Keith Brewer is the founder and principal advisor of MissionTrust Advisors - a boutique advisory firm built on 20+ years of direct experience architecting identity security and Zero Trust solutions across Federal Civilian agencies, the Department of War, and National Security missions.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
-            Before founding MissionTrust, Keith served as a Principal Identity & Security Architect at Microsoft, As a Principal Product Manager in  Identity and Network Access (IDNA) Product group Customer Expereince Engineering (CxE), Keith was the lead architect with Strategic US Government Customers. He is the named author of Microsoft&apos;s official guidance for the <a href="https://aka.ms/ZTforDoD" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">DoW Zero Trust Strategy</a>, <a href="https://aka.ms/ZTforUSGov" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CISA Zero Trust Maturity Model</a>, <a href="https://aka.ms/AzureADCMMC" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CMMC 2.0</a>, and <a href="https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">FedRAMP High</a> - the documents that define how agencies implement Microsoft security controls today. He also led the Microsoft Security video series on <a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">phishing-resistant authentication</a> and the instructional video on <a href="https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">migrating to Microsoft Entra Certificate-Based Authentication (CBA)</a>.
+            Before founding MissionTrust, Keith served as a Principal Identity & Security Architect at Microsoft and led strategic architecture work with U.S. Government customers in Identity and Network Access (IDNA) Customer Experience Engineering (CxE). He is the named author of Microsoft&apos;s official guidance for the <a href="https://aka.ms/ZTforDoD" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">DoW Zero Trust Strategy</a>, <a href="https://aka.ms/ZTforUSGov" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CISA Zero Trust Maturity Model</a>, <a href="https://aka.ms/AzureADCMMC" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CMMC 2.0</a>, and <a href="https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">FedRAMP High</a>. He also led Microsoft Security media on <a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">phishing-resistant authentication</a> and <a href="https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">migrating to Microsoft Entra Certificate-Based Authentication (CBA)</a>.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
             MissionTrust was founded on a simple but powerful premise: most agencies already own everything they need to achieve strong, auditable Zero Trust outcomes. Stitching together multiple vendor products is complex and in many cases not possible. The result is a fragmented admin and user experience that often fails to achieve the desired security outcome. Simply put, starting with a goal of implementing the Microsoft security products most agencies already own that natively integrate with Microsoft 365 and Azure workloads leads to better Zero Trust outcomes. This is where MissionTrust Advisors excels: helping agencies improve the overall security posture, administrative capability, and increased SOC visibility, with reduced complexity and cost, often while improving user experience.
           </p>
+
+          <div className="mt-6 rounded-2xl border border-[rgba(11,31,60,0.12)] bg-white px-5 py-5 shadow-[0_10px_24px_rgba(15,23,42,0.06)]">
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--navy-700)]">Executive Advisory Outcomes</p>
+            <div className="mt-3 space-y-2">
+              {executiveOutcomes.map((outcome) => (
+                <p key={outcome} className="text-sm leading-relaxed text-[var(--ink-800)]">{outcome}</p>
+              ))}
+            </div>
+          </div>
 
           <div className="mt-6 flex flex-wrap gap-3">
             {credentialChips.map((chip) => (
               <span key={chip} className="credential-chip">{chip}</span>
             ))}
           </div>
-          <p className="mt-5 text-sm text-[var(--ink-600)]">Keith Brewer | Founder & Principal Advisor</p>
+          <p className="mt-5 text-sm text-[var(--ink-600)]">Keith Brewer | CEO & Founder, MissionTrust Advisors</p>
         </section>
 
         <section className="section-reveal mt-16 grid gap-6 rounded-4xl bg-[var(--paper-100)] px-7 py-10 md:grid-cols-2 md:px-10" style={{ animationDelay: "500ms" }}>
