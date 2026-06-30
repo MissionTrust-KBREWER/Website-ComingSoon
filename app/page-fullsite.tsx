@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "MissionTrust Advisors | Federal Security Advisory",
-  description: "Mission-first Microsoft advisory for identity, Zero Trust, Agentic AI, and government cloud strategy for Federal Civilian, DoW, and National Security organizations.",
+  description: "Mission-first Microsoft advisory focused on Zero Trust outcomes, with seamlessly integrated guidance for identity, Agentic AI, and government cloud strategy for Federal Civilian, DoW, and National Security organizations.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -31,7 +31,7 @@ export default function Home() {
     "Federal Civilian | DoW | Intelligence Community",
     "20+ Years Federal Identity & Security Advisory",
     "Native Microsoft Configuration Guidance",
-    "Serving the Federal Enterprise",
+    "AI-Integrated Zero Trust Guidance",
   ];
 
   const outcomes = [
@@ -48,6 +48,7 @@ export default function Home() {
     "Azure Security Posture",
     "ICAM Modernization",
     "Non-Human Identity Security",
+    "Agentic AI Integration",
     "FedRAMP and CMMC Alignment",
     "Executive Roadmapping",
   ];
@@ -92,9 +93,9 @@ export default function Home() {
         "Entra ID architecture, phishing-resistant MFA, ADFS retirement, identity governance, privileged access, and non-human identity security - designed for Federal Civilian, DoW, and National Security environments.",
     },
     {
-      title: "Agentic AI Strategy & Security",
+      title: "Agentic AI Integration & Security",
       description:
-        "Practical guidance for secure Copilot and agentic AI adoption, including identity, access, governance, and knowledge grounding patterns that support mission work without introducing unnecessary risk.",
+        "Practical guidance that seamlessly incorporates secure Copilot and agentic AI patterns into your Zero Trust architecture, including identity, access, governance, and knowledge grounding for mission use.",
     },
     {
       title: "Sovereign Cloud Strategy & Readiness",
@@ -181,10 +182,10 @@ export default function Home() {
           <p className="hero-rotator mt-5 text-sm font-medium uppercase tracking-[0.18em] text-[var(--gold-300)] md:text-base">
             <span>Author of Official Microsoft Guidance.</span>
             <span>Better Security. Lower Cost. Zero Trust Done Right.</span>
-            <span>Native Microsoft. Reduce Integration complexity.</span>
+            <span>AI-Critical Guidance, Seamlessly Integrated into Zero Trust.</span>
           </p>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/85 md:text-lg">
-            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations activate and operationalize the Microsoft security capabilities they already own.
+            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations realize better Zero Trust outcomes from Microsoft capabilities they already own, while seamlessly incorporating AI-critical security guidance.
           </p>
 
           <div className="mt-8 grid gap-3 md:grid-cols-2">
@@ -222,7 +223,7 @@ export default function Home() {
 
         <section className="message-band section-reveal mt-10 rounded-3xl px-6 py-6 md:px-8" style={{ animationDelay: "200ms" }}>
           <p className="text-sm font-medium uppercase tracking-[0.16em] text-[var(--gold-300)]">Core Value Proposition</p>
-          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own the tools needed for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap.</p>
+          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own the tools needed for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap, with AI-critical guidance integrated from the start.</p>
           <div className="mt-5 flex flex-wrap gap-2">
             {outcomes.map((outcome) => (
               <span key={outcome} className="pill-chip">{outcome}</span>
