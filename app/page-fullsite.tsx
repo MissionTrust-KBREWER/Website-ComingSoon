@@ -59,6 +59,22 @@ export default function Home() {
     "Defense Industrial Base (DIB) - Prime contractors and supply chain",
   ];
 
+  const leadershipPriorities = [
+    "Accelerating sovereign cloud understanding for the Microsoft field",
+    "Improving technical answer quality for high-stakes customer engagements",
+    "Shaping secure adoption patterns for Copilot and agentic AI",
+    "Helping internal teams map Microsoft security capabilities to evolving federal requirements",
+  ];
+
+  const guidanceAndMedia = [
+    { label: "DoW Zero Trust Strategy", href: "https://aka.ms/ZTforDoD" },
+    { label: "CISA Zero Trust Maturity Model", href: "https://aka.ms/ZTforUSGov" },
+    { label: "CMMC 2.0 Guidance", href: "https://aka.ms/AzureADCMMC" },
+    { label: "FedRAMP High Guidance", href: "https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" },
+    { label: "Phishing-Resistant Authentication Video", href: "https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" },
+    { label: "Microsoft Entra CBA Video", href: "https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" },
+  ];
+
   const services = [
     {
       title: "Zero Trust Strategy & Architecture",
@@ -288,6 +304,35 @@ export default function Home() {
             ))}
           </div>
           <p className="mt-5 text-sm text-[var(--ink-600)]">Keith Brewer | Founder & Principal Advisor</p>
+        </section>
+
+        <section className="section-reveal mt-16 grid gap-6 rounded-4xl bg-[var(--paper-100)] px-7 py-10 md:grid-cols-2 md:px-10" style={{ animationDelay: "500ms" }}>
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">Selected Leadership Priorities</p>
+            <div className="mt-5 space-y-3">
+              {leadershipPriorities.map((priority) => (
+                <p key={priority} className="rounded-2xl border border-[rgba(11,31,60,0.1)] bg-white px-4 py-3 text-sm leading-relaxed text-[var(--ink-800)] shadow-[0_10px_24px_rgba(15,23,42,0.05)]">
+                  {priority}
+                </p>
+              ))}
+            </div>
+          </div>
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.16em] text-[var(--navy-600)]">Selected Guidance & Media</p>
+            <div className="mt-5 grid gap-3">
+              {guidanceAndMedia.map((item) => (
+                <a
+                  key={item.label}
+                  href={item.href}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-2xl border border-[rgba(11,31,60,0.1)] bg-white px-4 py-3 text-sm font-medium text-[var(--ink-900)] shadow-[0_10px_24px_rgba(15,23,42,0.05)] transition-transform hover:-translate-y-0.5"
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </div>
         </section>
 
         <section id="contact" className="section-reveal mt-20 rounded-4xl border border-white/20 bg-[rgba(6,14,33,0.7)] px-7 py-10 md:px-10" style={{ animationDelay: "520ms" }}>
