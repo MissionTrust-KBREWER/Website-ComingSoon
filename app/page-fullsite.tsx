@@ -44,9 +44,9 @@ export default function Home() {
 
   const quickCapabilities = [
     "Zero Trust Architecture",
+    "ICAM Modernization",
     "Microsoft 365 Security",
     "Azure Security Posture",
-    "ICAM Modernization",
     "Non-Human Identity Security",
     "Agentic AI Integration",
     "FedRAMP and CMMC Alignment",
@@ -180,7 +180,7 @@ export default function Home() {
             Turn Existing Microsoft Security Investments into Mission Outcomes by Operationalizing What You Own at Lower Cost.
           </h1>
           <p className="hero-rotator mt-5 text-sm font-medium uppercase tracking-[0.18em] text-[var(--gold-300)] md:text-base">
-            <span>Author of Official Microsoft Guidance.</span>
+            <span>Identity. Zero Trust. Agentic AI. Government Cloud Strategy.</span>
             <span>Better Security. Lower Cost. Zero Trust Done Right.</span>
             <span>AI-Critical Guidance, Seamlessly Integrated into Zero Trust.</span>
           </p>
