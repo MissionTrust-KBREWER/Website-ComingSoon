@@ -286,7 +286,7 @@ export default function Home() {
             The Author of the Playbook. Now Working For You.
           </h2>
           <p className="mt-4 text-lg text-[var(--ink-700)]">
-            20+ years advising Federal Civilian, Defense, and National Security agencies - now as your independent advisor.
+            20+ years advising Federal Civilian, DoW, and National Security agencies - now as your independent advisor.
           </p>
           <p className="mt-5 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
             Keith Brewer is the founder and principal advisor of MissionTrust Advisors - a boutique advisory firm built on 20+ years of direct experience architecting identity security and Zero Trust solutions across Federal Civilian agencies, the Department of War, and National Security missions.
