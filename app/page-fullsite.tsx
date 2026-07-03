@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "MissionTrust Advisors | Federal Security Advisory",
-  description: "Mission-first Microsoft advisory focused on Zero Trust outcomes, with seamlessly integrated guidance for identity, Agentic AI, and government cloud strategy for Federal Civilian, DoW, and National Security organizations.",
+  description: "Mission-first Microsoft advisory focused on measurable Zero Trust outcomes, auditable security achievement, and government cloud strategy for Federal Civilian, DoW, and National Security organizations.",
   icons: {
     icon: "/favicon.svg",
   },
@@ -31,7 +31,7 @@ export default function Home() {
     "Federal Civilian | DoW | Intelligence Community",
     "20+ Years Federal Identity & Security Advisory",
     "Native Microsoft Configuration Guidance",
-    "AI-Integrated Zero Trust Guidance",
+    "Measurable Zero Trust Outcomes & Compliance",
   ];
 
   const outcomes = [
@@ -48,7 +48,7 @@ export default function Home() {
     "Microsoft 365 Security",
     "Azure Security Posture",
     "Non-Human Identity Security",
-    "Agentic AI Integration",
+    "Measurable Zero Trust Outcomes",
     "FedRAMP and CMMC Alignment",
     "Executive Roadmapping",
   ];
@@ -61,10 +61,9 @@ export default function Home() {
   ];
 
   const leadershipPriorities = [
-    "Accelerating sovereign cloud understanding for the Microsoft field",
+    "Accelerate cloud adoption and identity modernization journey for US Government agencies",
     "Improving technical answer quality for high-stakes customer engagements",
-    "Shaping secure adoption patterns for Copilot and agentic AI",
-    "Helping internal teams map Microsoft security capabilities to evolving federal requirements",
+    "Bring teams from different disciplines (Zero Trust pillars) to align on Zero Trust outcomes",
   ];
 
   const guidanceAndMedia = [
@@ -93,9 +92,9 @@ export default function Home() {
         "Entra ID architecture, phishing-resistant MFA, ADFS retirement, identity governance, privileged access, and non-human identity security - designed for Federal Civilian, DoW, and National Security environments.",
     },
     {
-      title: "Agentic AI Integration & Security",
+      title: "Secure Automation Integration & Security",
       description:
-        "Practical guidance that seamlessly incorporates secure Copilot and agentic AI patterns into your Zero Trust architecture, including identity, access, governance, and knowledge grounding for mission use.",
+        "Practical guidance that seamlessly incorporates secure automation and outcome-driven patterns into your Zero Trust architecture, including identity, access, governance, and mission grounding.",
     },
     {
       title: "Sovereign Cloud Strategy & Readiness",
@@ -180,12 +179,12 @@ export default function Home() {
             Turn Existing Microsoft Security Investments into Measurable Zero Trust Outcomes at Lower Cost.
           </h1>
           <p className="hero-rotator mt-5 text-sm font-medium uppercase tracking-[0.18em] text-[var(--gold-300)] md:text-base">
-            <span>Identity. Zero Trust. Agentic AI. Government Cloud Strategy.</span>
+            <span>Identity. Zero Trust. Security. Government Cloud Strategy.</span>
             <span>Better Security. Lower Cost. Zero Trust Done Right.</span>
-            <span>AI-Critical Guidance, Seamlessly Integrated into Zero Trust.</span>
+            <span>Achieve measurable Zero Trust outcomes while improving end user experience.</span>
           </p>
           <p className="mt-6 max-w-3xl text-base leading-relaxed text-white/85 md:text-lg">
-            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations operationalize the Microsoft capabilities they already own to improve Zero Trust outcomes, reduce complexity, and integrate AI-critical security guidance from the start.
+            MissionTrust Advisors helps Federal Civilian, Department of War, and National Security organizations operationalize the Microsoft capabilities they already own. We help agencies realize Zero Trust outcomes, reduce complexity, and meet compliance requirements while lowering costs and improving end user experience.
           </p>
 
           <div className="mt-8 grid gap-3 md:grid-cols-2">
@@ -223,7 +222,7 @@ export default function Home() {
 
         <section className="message-band section-reveal mt-10 rounded-3xl px-6 py-6 md:px-8" style={{ animationDelay: "200ms" }}>
           <p className="text-sm font-medium uppercase tracking-[0.16em] text-[var(--gold-300)]">Core Value Proposition</p>
-          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own what they need for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap, with AI-critical guidance seamlessly integrated from day one.</p>
+          <p className="mt-3 text-lg leading-relaxed text-white/90 md:text-2xl">Most agencies already own what they need for strong, auditable Zero Trust outcomes. MissionTrust closes the configuration and operationalization gap, helping teams achieve measurable outcomes while improving end user experience.</p>
           <div className="mt-5 flex flex-wrap gap-2">
             {outcomes.map((outcome) => (
               <span key={outcome} className="pill-chip">{outcome}</span>
@@ -299,7 +298,7 @@ export default function Home() {
             Keith Brewer is the founder and principal advisor of MissionTrust Advisors - a boutique advisory firm built on 20+ years of direct experience architecting identity security and Zero Trust solutions across Federal Civilian agencies, the Department of War, and National Security missions.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
-            Before founding MissionTrust, Keith served as a Principal Identity & Security Architect at Microsoft and led strategic architecture work with U.S. Government customers in Identity and Network Access (IDNA) Customer Experience Engineering (CxE). He architected and directed Microsoft&apos;s official guidance on <a href="https://aka.ms/ZTforDoD" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">DoW Zero Trust Strategy</a>, <a href="https://aka.ms/ZTforUSGov" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">Identity & Access</a>, <a href="https://aka.ms/AzureADCMMC" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">Compliance & Regulatory</a>, and <a href="https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">FedRAMP/CMMC Alignment</a> initiatives. He also led Microsoft Security media on <a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">phishing-resistant authentication</a> and <a href="https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">migrating to Microsoft Entra Certificate-Based Authentication (CBA)</a>.
+            Before founding MissionTrust, Keith served as a Principal Identity & Security Architect at Microsoft and led strategic architecture work with U.S. Government customers in Identity and Network Access (IDNA) Customer Experience Engineering (CxE). He architected and directed Microsoft&apos;s official guidance on <a href="https://aka.ms/ZTforDoD" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">DoW Zero Trust Strategy</a>, <a href="https://aka.ms/ZTforUSGov" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">CISA Zero Trust Maturity Model</a>, <a href="https://aka.ms/AzureADCMMC" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">Compliance & Regulatory</a>, and <a href="https://learn.microsoft.com/en-us/entra/standards/configure-for-fedramp-high-impact" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">FedRAMP/CMMC Alignment</a> initiatives. He also led Microsoft Security media on <a href="https://www.youtube.com/playlist?list=PL3ZTgFEc7LysTnItcN7SJnJ6wpPJif2-k" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">phishing-resistant authentication</a> and <a href="https://youtu.be/jsKQxo-xGgA?si=_gKnquCot5LDf4HH" target="_blank" rel="noreferrer" className="font-semibold text-[var(--ink-900)] underline decoration-[var(--ink-700)] underline-offset-2">migrating to Microsoft Entra Certificate-Based Authentication (CBA)</a>.
           </p>
           <p className="mt-4 text-sm leading-relaxed text-[var(--ink-700)] md:text-base">
             MissionTrust was founded on a simple but powerful premise: most agencies already own everything they need to achieve strong, auditable Zero Trust outcomes. Stitching together multiple vendor products is complex and in many cases not possible. The result is a fragmented admin and user experience that often fails to achieve the desired security outcome. Simply put, starting with a goal of implementing the Microsoft security products most agencies already own that natively integrate with Microsoft 365 and Azure workloads leads to better Zero Trust outcomes. This is where MissionTrust Advisors excels: helping agencies improve the overall security posture, administrative capability, and increased SOC visibility, with reduced complexity and cost, often while improving user experience.
