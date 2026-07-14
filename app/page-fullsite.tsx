@@ -327,10 +327,6 @@ export default function Home() {
             <span className="bottom">ADVISORS</span>
           </span>
         </a>
-        <div className="mb-3 flex flex-wrap gap-4 text-xs text-white/70">
-          <a href="mailto:Keith@missiontrustadvisors.com" className="hover:text-white">Keith@missiontrustadvisors.com</a>
-          <a href="https://www.linkedin.com/in/Keith-Brewer" target="_blank" rel="noreferrer" className="hover:text-white">LinkedIn</a>
-        </div>
         <p>© {year} MissionTrust Advisors | Federal Civilian, DoW, and National Security Advisory</p>
       </footer>
     </div>
