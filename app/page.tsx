@@ -1,1 +1,1 @@
-export { default } from './coming-soon/page';
+export { default } from './page-fullsite';
